@@ -1,0 +1,29 @@
+.container {
+    background-color: powderblue;
+
+}
+
+.title {
+    color: blue;
+    
+}
+
+.info {
+    color: red;
+}
+header{
+    display: inline-block;
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: underline;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+}
