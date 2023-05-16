@@ -1,29 +1,47 @@
 .container {
-    background-color: powderblue;
-
+  background-color: powderblue;
 }
 
 .title {
-    color: blue;
-    
+  color: blue;
 }
 
 .info {
-    color: red;
+  color: red;
 }
-header{
-    display: inline-block;
+header {
+  display: inline-block;
 }
-.menu{
-    list-style: none;
+.menu {
+  list-style: none;
 }
-.menu li{
-    float: left;
-    margin: 10px;
+.menu li {
+  float: left;
+  margin: 10px;
+  padding: 5px;
+  text-decoration: underline;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+}
+.main
+{
+    margin-left: 43px;
     padding: 5px;
-    text-decoration: underline;
 }
-footer{
-    position: absolute;
-    bottom: 0px;
+@media screen and (max-width: 800px) {
+  .container {
+    background-color: royalblue;
+  }
+
+  footer {
+    position: relative;
+  }
+  .menu li {
+    float: left;
+    margin: 4px;
+    padding: 2px;
+    text-decoration: underline;
+  }
 }
